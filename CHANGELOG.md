@@ -1,5 +1,7 @@
 # HEAD
 
+ * Fixing the tests - Jon Rohan [github/github@1ba7f2a](https://github.com/github/github/commit/1ba7f2a)
+ * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
  * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
 
 # v0.2.2
