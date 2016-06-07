@@ -43,11 +43,6 @@
   &.selected {
     color: $text-white;
     background-color: $bg-blue;
-
-    .octicon-remove-close {
-      float: right;
-      opacity: 0.8;
-    }
   }
 
   .count {
