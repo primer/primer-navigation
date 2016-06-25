@@ -64,19 +64,19 @@ There are a few subcomponents and add-ons that work well with the menu, includin
 ```html
 <nav class="menu">
   <a class="menu-item selected" href="#">
-    <%= octicon :symbol => "tools" %>
+    <%= octicon "tools" %>
     Account
   </a>
   <a class="menu-item" href="#">
-    <%= octicon :symbol => "person" %>
+    <%= octicon "person" %>
     Profile
   </a>
   <a class="menu-item" href="#">
-    <%= octicon :symbol => "mail" %>
+    <%= octicon "mail" %>
     Emails
   </a>
   <a class="menu-item" href="#">
-    <%= octicon :symbol => "radio-tower" %>
+    <%= octicon "radio-tower" %>
     <span class="counter">3</span>
     Notifications
   </a>
@@ -201,7 +201,7 @@ You can have `subnav-search` in the subnav bar.
   </div>
   <div class="subnav-search float-left">
     <input type="text" name="name" class="form-control subnav-search-input" value="">
-    <%= octicon :symbol => "search", :class => "subnav-search-icon" %>
+    <%= octicon "search", :class => "subnav-search-icon" %>
   </div>
 </nav>
 ```
@@ -242,7 +242,7 @@ You can also use a `subnav-search-context` to display search help in a select me
   </div>
   <div class="subnav-search float-left">
     <input type="text" name="name" class="form-control subnav-search-input" value="">
-    <%= octicon :symbol => "search", :class => "subnav-search-icon" %>
+    <%= octicon "search", :class => "subnav-search-icon" %>
   </div>
 </nav>
 ```
