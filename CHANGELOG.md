@@ -1,3 +1,9 @@
+# HEAD
+
+ * move over .state change, .label font-size bump, and .counter font-size bump - Mark Otto [github/github@0bc7288](https://github.com/github/github/commit/0bc7288)
+ * fix up subnav-item alignment - Mark Otto [github/github@f7247a2](https://github.com/github/github/commit/f7247a2)
+ * Adding documentation status to most of the modules - Jon Rohan [github/github@b97695c](https://github.com/github/github/commit/b97695c)
+
 # v0.2.3
 
  * Publishing a new version - Jon Rohan [github/github@eed0e96](https://github.com/github/github/commit/eed0e96)
