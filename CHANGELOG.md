@@ -1,5 +1,7 @@
-# HEAD
+# v0.3.0
 
+ * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
+ * Make sure the modules build without error before publishing - Jon Rohan [github/github@57ac5e6](https://github.com/github/github/commit/57ac5e6)
  * move over .state change, .label font-size bump, and .counter font-size bump - Mark Otto [github/github@0bc7288](https://github.com/github/github/commit/0bc7288)
  * fix up subnav-item alignment - Mark Otto [github/github@f7247a2](https://github.com/github/github/commit/f7247a2)
  * Adding documentation status to most of the modules - Jon Rohan [github/github@b97695c](https://github.com/github/github/commit/b97695c)
