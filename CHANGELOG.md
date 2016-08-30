@@ -1,3 +1,8 @@
+# HEAD
+
+ * refactoring out old utility classes in css - Jon Rohan [github/github@26e9bee](https://github.com/github/github/commit/26e9bee)
+ * finding more left/right - Jon Rohan [github/github@c80b828](https://github.com/github/github/commit/c80b828)
+
 # v0.4.0
 
  * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
