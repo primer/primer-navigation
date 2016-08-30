@@ -1,15 +1,9 @@
 // Needs refactoring
-// stylelint-disable primer/selector-no-utility
 // Sub nav
 .subnav {
   margin-bottom: 20px;
 
   @include clearfix();
-
-  // Alignment
-  > .right {
-    margin-left: 10px;
-  }
 }
 
 .subnav-bordered {

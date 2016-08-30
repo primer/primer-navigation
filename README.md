@@ -110,11 +110,11 @@ When you need to toggle between different views, consider using a tabnav. It'll 
 </div>
 ```
 
-Use `.right` to align additional elements in the `.tabnav`:
+Use `.float-right` to align additional elements in the `.tabnav`:
 
 ```html
 <div class="tabnav">
-  <a class="btn btn-sm right" href="#">Button</a>
+  <a class="btn btn-sm float-right" href="#">Button</a>
   <nav class="tabnav-tabs">
     <a href="#" class="tabnav-tab selected">Foo Tab</a>
     <a href="#" class="tabnav-tab">Bar Tab</a>
@@ -126,7 +126,7 @@ Additional bits of text and links can be styled for optimal placement with `.tab
 
 ```html
 <div class="tabnav">
-  <div class="tabnav-extra right">
+  <div class="tabnav-extra float-right">
     Tabnav widget text here.
   </div>
   <nav class="tabnav-tabs">
@@ -138,7 +138,7 @@ Additional bits of text and links can be styled for optimal placement with `.tab
 
 ```html
 <div class="tabnav">
-  <div class="right">
+  <div class="float-right">
     <a class="tabnav-extra" href="#">
       Tabnav extra link
     </a>
