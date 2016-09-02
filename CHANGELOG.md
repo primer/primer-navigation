@@ -1,5 +1,6 @@
-# HEAD
+# v0.5.0
 
+ * Updating to major new version - Jon Rohan [github/github@f0df999](https://github.com/github/github/commit/f0df999)
  * refactoring out old utility classes in css - Jon Rohan [github/github@26e9bee](https://github.com/github/github/commit/26e9bee)
  * finding more left/right - Jon Rohan [github/github@c80b828](https://github.com/github/github/commit/c80b828)
 
