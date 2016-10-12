@@ -39,7 +39,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 
 <!-- %docs
 title: Navigation
-homepage: https://github.com/primer/navigation
+homepage: https://github.com/primer/primer-navigation
 status: Stable
 -->
 

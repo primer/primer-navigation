@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/navigation.git",
+  "repository": "https://github.com/primer/primer-navigation.git",
   "bugs": {
-    "url": "https://github.com/primer/navigation/issues"
+    "url": "https://github.com/primer/primer-navigation/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
