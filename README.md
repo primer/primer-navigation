@@ -35,15 +35,10 @@ $ npm run build
 
 ## Documentation
 
-You can read more about other primer modules in the [full primer docs][docs].
-
 <!-- %docs
 title: Navigation
-homepage: https://github.com/primer/primer-navigation
 status: Stable
 -->
-
-### Navigation
 
 Primer comes with several navigation components. Some were designed with singular purposes, while others were design to be more flexible and appear quite frequently.
 
