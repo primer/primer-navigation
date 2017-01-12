@@ -47,31 +47,31 @@ Primer comes with several navigation components. Some were designed with singula
 The menu is a vertical list of navigational links. **A menu's width and placement must be set by you.** If you like, just use our grid columns as a parent. Otherwise, apply a custom `width`.
 
 ```html
-<nav class="menu">
-  <a class="menu-item selected" href="#">Account</a>
-  <a class="menu-item" href="#">Profile</a>
-  <a class="menu-item" href="#">Emails</a>
-  <a class="menu-item" href="#">Notifications</a>
+<nav class="menu" aria-label="Person settings">
+  <a class="menu-item selected" href="#url" aria-current="page">Account</a>
+  <a class="menu-item" href="#url">Profile</a>
+  <a class="menu-item" href="#url">Emails</a>
+  <a class="menu-item" href="#url">Notifications</a>
 </nav>
 ```
 
 There are a few subcomponents and add-ons that work well with the menu, including avatars, counters, and Octicons.
 
 ```html
-<nav class="menu">
-  <a class="menu-item selected" href="#">
+<nav class="menu" aria-label="Person settings">
+  <a class="menu-item selected" href="#url" aria-current="page">
     <%= octicon "tools" %>
     Account
   </a>
-  <a class="menu-item" href="#">
+  <a class="menu-item" href="#url">
     <%= octicon "person" %>
     Profile
   </a>
-  <a class="menu-item" href="#">
+  <a class="menu-item" href="#url">
     <%= octicon "mail" %>
     Emails
   </a>
-  <a class="menu-item" href="#">
+  <a class="menu-item" href="#url">
     <%= octicon "radio-tower" %>
     <span class="counter">3</span>
     Notifications
@@ -82,12 +82,12 @@ There are a few subcomponents and add-ons that work well with the menu, includin
 You can also add optional headings to a menu. Feel free to use nearly any semantic element with the `.menu-heading` class, including inline elements, headings, and more.
 
 ```html
-<nav class="menu">
-  <span class="menu-heading">Menu heading</span>
-  <a class="menu-item selected" href="#">Account</a>
-  <a class="menu-item" href="#">Profile</a>
-  <a class="menu-item" href="#">Emails</a>
-  <a class="menu-item" href="#">Notifications</a>
+<nav class="menu" aria-labelledby="menu-heading">
+  <span class="menu-heading" id="menu-heading">Menu heading</span>
+  <a class="menu-item selected" href="#url" aria-current="page">Account</a>
+  <a class="menu-item" href="#url">Profile</a>
+  <a class="menu-item" href="#url">Emails</a>
+  <a class="menu-item" href="#url">Notifications</a>
 </nav>
 ```
 
@@ -98,9 +98,9 @@ When you need to toggle between different views, consider using a tabnav. It'll 
 
 ```html
 <div class="tabnav">
-  <nav class="tabnav-tabs">
-    <a href="#" class="tabnav-tab selected">Foo tab</a>
-    <a href="#" class="tabnav-tab">Bar tab</a>
+  <nav class="tabnav-tabs" aria-label="Foo bar">
+    <a href="#url" class="tabnav-tab selected" aria-current="page">Foo tab</a>
+    <a href="#url" class="tabnav-tab">Bar tab</a>
   </nav>
 </div>
 ```
@@ -109,10 +109,10 @@ Use `.float-right` to align additional elements in the `.tabnav`:
 
 ```html
 <div class="tabnav">
-  <a class="btn btn-sm float-right" href="#">Button</a>
-  <nav class="tabnav-tabs">
-    <a href="#" class="tabnav-tab selected">Foo Tab</a>
-    <a href="#" class="tabnav-tab">Bar Tab</a>
+  <a class="btn btn-sm float-right" href="#url" role="button">Button</a>
+  <nav class="tabnav-tabs" aria-label="Foo bar">
+    <a href="#url" class="tabnav-tab selected" aria-current="page">Foo Tab</a>
+    <a href="#url" class="tabnav-tab">Bar Tab</a>
   </nav>
 </div>
 ```
@@ -124,9 +124,9 @@ Additional bits of text and links can be styled for optimal placement with `.tab
   <div class="tabnav-extra float-right">
     Tabnav widget text here.
   </div>
-  <nav class="tabnav-tabs">
-    <a href="#" class="tabnav-tab selected">Foo Tab</a>
-    <a href="#" class="tabnav-tab">Bar Tab</a>
+  <nav class="tabnav-tabs" aria-label="Foo bar">
+    <a href="#url" class="tabnav-tab selected" aria-current="page">Foo Tab</a>
+    <a href="#url" class="tabnav-tab">Bar Tab</a>
   </nav>
 </div>
 ```
@@ -134,16 +134,16 @@ Additional bits of text and links can be styled for optimal placement with `.tab
 ```html
 <div class="tabnav">
   <div class="float-right">
-    <a class="tabnav-extra" href="#">
+    <a class="tabnav-extra" href="#url">
       Tabnav extra link
     </a>
-    <a class="tabnav-extra" href="#">
+    <a class="tabnav-extra" href="#url">
       Tabnav extra link
     </a>
   </div>
-  <nav class="tabnav-tabs">
-    <a href="#" class="tabnav-tab selected">Foo Tab</a>
-    <a href="#" class="tabnav-tab">Bar Tab</a>
+  <nav class="tabnav-tabs" aria-label="Foo bar">
+    <a href="#url" class="tabnav-tab selected" aria-current="page">Foo Tab</a>
+    <a href="#url" class="tabnav-tab">Bar Tab</a>
   </nav>
 </div>
 ```
@@ -155,19 +155,19 @@ A vertical list of filters. Grey text on white background. Selecting a filter fr
 ```html
 <ul class="filter-list">
   <li>
-    <a href="#" class="filter-item selected">
-      <span class="count">21</span>
+    <a href="#url" class="filter-item selected" aria-current="page">
+      <span class="count" title="results">21</span>
       First filter
     </a>
   </li>
   <li>
-    <a href="#" class="filter-item">
-      <span class="count">3</span>
+    <a href="#url" class="filter-item">
+      <span class="count" title="results">3</span>
       Second filter
     </a>
   </li>
   <li>
-    <a href="#" class="filter-item">
+    <a href="#url" class="filter-item">
       Third filter
     </a>
   </li>
@@ -179,55 +179,55 @@ A vertical list of filters. Grey text on white background. Selecting a filter fr
 `.subnav` is navigation that is typically used when on a dashboard type interface with another set of navigation above it. This helps distinguish navigation hierarchy.
 
 ```html
-<nav class="subnav">
-  <a href="#" class="subnav-item selected">Item 1</a>
-  <a href="#" class="subnav-item">Item 2</a>
-  <a href="#" class="subnav-item">Item 3</a>
+<nav class="subnav" aria-label="Respository">
+  <a href="#url" class="subnav-item selected" aria-current="page">Item 1</a>
+  <a href="#url" class="subnav-item">Item 2</a>
+  <a href="#url" class="subnav-item">Item 3</a>
 </nav>
 ```
 
 You can have `subnav-search` in the subnav bar.
 
 ```html
-<nav class="subnav">
-  <div class="subnav-links">
-    <a href="#" class="subnav-item selected">Item 1</a>
-    <a href="#" class="subnav-item">Item 2</a>
-    <a href="#" class="subnav-item">Item 3</a>
-  </div>
+<div class="subnav">
+  <nav class="subnav-links" aria-label="Repository">
+    <a href="#url" class="subnav-item selected" aria-current="page">Item 1</a>
+    <a href="#url" class="subnav-item">Item 2</a>
+    <a href="#url" class="subnav-item">Item 3</a>
+  </nav>
   <div class="subnav-search float-left">
-    <input type="text" name="name" class="form-control subnav-search-input" value="">
+    <input type="search" name="name" class="form-control subnav-search-input" value="" aria-label="Search site">
     <%= octicon "search", :class => "subnav-search-icon" %>
   </div>
-</nav>
+</div>
 ```
 
 
 You can also use a `subnav-search-context` to display search help in a select menu.
 
 ```html
-<nav class="subnav">
-  <div class="subnav-links">
-    <a href="#" class="subnav-item selected">Item 1</a>
-    <a href="#" class="subnav-item">Item 2</a>
-    <a href="#" class="subnav-item">Item 3</a>
-  </div>
+<div class="subnav">
+  <nav class="subnav-links">
+    <a href="#url" class="subnav-item selected">Item 1</a>
+    <a href="#url" class="subnav-item">Item 2</a>
+    <a href="#url" class="subnav-item">Item 3</a>
+  </nav>
   <div class="float-left ml-3 select-menu js-menu-container js-select-menu subnav-search-context">
-    <button type="button" name="button" class="btn select-menu-button js-menu-target">Filters </button>
+    <button type="button" name="button" class="btn select-menu-button js-menu-target" aria-expanded="false" aria-haspopup="true">Filters </button>
     <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
       <div class="select-menu-modal">
         <div class="select-menu-list">
-          <a href="#" class="select-menu-item js-navigation-item">
+          <a href="#url" class="select-menu-item js-navigation-item">
             <div class="select-menu-item-text">
               Search filter 1
             </div>
           </a>
-          <a href="#" class="select-menu-item js-navigation-item">
+          <a href="#url" class="select-menu-item js-navigation-item">
             <div class="select-menu-item-text">
               Search filter 2
             </div>
           </a>
-          <a href="#" class="select-menu-item js-navigation-item">
+          <a href="#url" class="select-menu-item js-navigation-item">
             <div class="select-menu-item-text">
               Search filter 3
             </div>
@@ -237,10 +237,10 @@ You can also use a `subnav-search-context` to display search help in a select me
     </div>
   </div>
   <div class="subnav-search float-left">
-    <input type="text" name="name" class="form-control subnav-search-input" value="">
+    <input type="search" name="name" class="form-control subnav-search-input" value="" aria-label="Search site">
     <%= octicon "search", :class => "subnav-search-icon" %>
   </div>
-</nav>
+</div>
 ```
 <!-- %enddocs -->
 

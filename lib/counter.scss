@@ -1,3 +1,5 @@
+// Counters are rounded-corner badges for numbers
+// Default counter style - class name syntax to be updated
 .counter {
   display: inline-block;
   padding: 2px 5px;
@@ -7,4 +9,14 @@
   color: #666;
   background-color: #eee;
   border-radius: 20px;
+}
+
+.Counter--gray-light {
+  color: $text-gray-dark;
+  background-color: #ccc;
+}
+
+.Counter--gray {
+  color: $white;
+  background-color: $gray;
 }
