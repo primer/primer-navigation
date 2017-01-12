@@ -1,3 +1,10 @@
+# HEAD
+
+ * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
+ * Make all href #url - Mu-An Chiou [github/github@27ba40c](https://github.com/github/github/commit/27ba40c)
+ * Add href to '#' - Mu-An Chiou [github/github@55965d4](https://github.com/github/github/commit/55965d4)
+ * Improve navigation accessibility - Add aria-current to current item - Change input type to search for search fields - Add aria-label to nav element to explain nav type - Mu-An Chiou [github/github@1e30d0a](https://github.com/github/github/commit/1e30d0a)
+
 # v0.6.0
 
  * Cutting new versions of primer modules - Jon Rohan [github/github@157f5ab](https://github.com/github/github/commit/157f5ab)
