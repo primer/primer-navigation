@@ -1,4 +1,10 @@
-# HEAD
+# v0.6.2
+
+ * More versions - Jon Rohan [github/github@e12ba2e](https://github.com/github/github/commit/e12ba2e)
+ * Pointing main js file to build - Jon Rohan [github/github@3575651](https://github.com/github/github/commit/3575651)
+ * don't change the versions yet - Jon Rohan [github/github@6bebcff](https://github.com/github/github/commit/6bebcff)
+
+# v0.6.1
 
  * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
  * Make all href #url - Mu-An Chiou [github/github@27ba40c](https://github.com/github/github/commit/27ba40c)
