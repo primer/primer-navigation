@@ -6,14 +6,14 @@
   font-size: $font-size-small;
   font-weight: $font-weight-bold;
   line-height: 1;
-  color: #666;
-  background-color: #eee;
+  color: $gray-600;
+  background-color: rgba($black, 0.08);
   border-radius: 20px;
 }
 
 .Counter--gray-light {
   color: $text-gray-dark;
-  background-color: #ccc;
+  background-color: $black-fade-15;
 }
 
 .Counter--gray {
