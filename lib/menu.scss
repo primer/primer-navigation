@@ -61,7 +61,7 @@
     text-align: center;
   }
 
-  .counter {
+  .Counter {
     float: right;
     margin-left: 5px;
   }
@@ -77,7 +77,7 @@
   }
 
   &.alert {
-    .counter {
+    .Counter {
       color: $text-red;
     }
   }
