@@ -1,3 +1,6 @@
+# v1.0.0
+
+
 # v0.7.1
 
  * Bump all the version numbers for readme - Mu-An Chiou [github/github@a9d152f](https://github.com/github/github/commit/a9d152f)
